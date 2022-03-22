@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
-const apiRoutes = require('.NoteTakingAPP/02-Homework/routes/apiroutes.js');
-const htmlRoutes = require('.NoteTakingAPP/02-Homework/routes/htmlroutes.js');
+const apiRoutes = require('.NoteTakingAPP/02-Homework/routes/apiroutes');
+const htmlRoutes = require('.NoteTakingAPP/02-Homework/routes/htmlroutes');
 const PORT = process.env.PORT || 3001;
 const app = express();
 
